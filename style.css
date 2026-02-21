@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f9ff;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background: #e6e9ff;
+}
+
+h1 {
+    margin: 0;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.tool-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+.tool-card h3 {
+    margin-top: 0;
+}
+
+.tool-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background: #cfd8ff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    color: #333;
+}
+
+.tool-details {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.back-btn {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    background: #e6e9ff;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
